@@ -1,0 +1,27 @@
+/*
+CSS COMMENT
+*/
+html{
+color:mediumvioletred;
+font-family:sans-serif;
+background-color:lavenderblush;
+}
+h1{
+color:dodgerblue;
+}
+strong{
+color:black;
+}
+em{
+color:#808080;
+}
+#movie-title{
+	color:deepskyblue;
+
+}
+#movie-subtitle {
+	font-size:24px;
+}
+.script {
+	font-family:monospace;
+}
