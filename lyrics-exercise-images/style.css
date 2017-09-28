@@ -1,4 +1,21 @@
 html{ 
 background-image:url("images/Cardi_B.jpg");
 background-attachment: fixed;
-background-size: cover }
+background-size: cover; 
+
+color:#5B2C6F; 
+font-family:"Optima",sans-serif ;
+}
+h1{
+	text-shadow:1px 1px #F5EEF8 
+}
+h2{ text-shadow:1px 1px #F5EEF8  }
+a: link {
+	color:#5B2C6F;
+}
+a:visited {
+	color:white;
+}
+a:hover {
+	color: #5131C1;
+}
