@@ -1,0 +1,49 @@
+html{ color:black;
+font-family: 'Raleway', sans-serif;
+font-size: 24px;
+ }
+ h1{
+ 	font-size:40px;
+ 	font-weight:bold;
+ }
+ #subtitle{
+ 	font-family: Serif
+ }
+ #subheading{ font-family: serif;
+ color: gray;
+ font-style:none ;
+ font-weight:none ;
+ letter-spacing: none ;
+ text-decoration:none; 
+ text-transform: none;
+}
+ .bold{
+ 	font-weight: bold;
+ }
+ .italic{
+ 	font-style: italic;
+ }
+ .letter-spacing{
+ 	letter-spacing: 5px
+ }
+.letterspacing{
+	letter-spacing: -5px
+}
+.underline{
+	text-decoration: underline
+}
+.line-through{
+	text-decoration: line-through;
+}
+.overline{
+	text-decoration: overline
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform:lowercase;
+}
+.capitalize{
+	text-transform:capitalize;
+}
