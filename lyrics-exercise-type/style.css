@@ -1,0 +1,18 @@
+html{
+	Background-image:url("images/Cardi_B.jpg");
+	background-attachment:fixed;
+	background-size: cover;
+	color:black;
+	font-family:'Sedgwick Ave', cursive
+}
+ .chorus{
+ 	color: #F5C419;
+ 	text-decoration: underline;
+ }
+ #snip{
+ 	text-decoration: line-through;
+ }
+ #boss{
+ 	font-weight: bold;
+ 	text-transform: uppercase
+ }
