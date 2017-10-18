@@ -1,0 +1,127 @@
+htmml
+	*after, *Before{
+		box-sizing: border-box;
+	}
+body{font-family:'Archivo Narrow', sans-serif;
+}
+h1,
+h2,
+h3{
+	text-align: center;
+	margin-top:0;
+	font-size: 31px;
+	letter-spacing: -.4px;
+}
+h1{
+	font-size:80px;
+	margin-bottom:0;
+}
+h2{
+	font-size: 41px;
+	margin-bottom: 32px;
+}
+section{
+	padding top:50px;
+	
+}
+.container{
+		width:960px;
+		margin-left: auto;
+		margin-right: auto;
+}
+#intro{
+	padding-top:155px;
+	height: 325px;
+	background-image: url("../images/Smi.jpg");
+}
+#second img{
+	float: right;
+	border:1px solid green;
+	width: 400px;
+	height:300px;
+	margin-left:37px;
+	margin-bottom:11px;
+}
+#second p{
+	font-size: 18px;
+    letter-spacing: -0px;
+    line-height: 21px;
+    margin-bottom:16.5px;
+    margin-top: 0px;
+
+} 
+#second{
+	padding-top: 40px;
+}
+#middle{
+	height:647px;
+	background-color: pink;
+
+}
+.container2{
+	padding-top:40px;
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blurb img{
+	width:200px;
+	height:150px;
+	float:left;
+	margin-right:12px;
+}
+.blurb{
+	width: 50%;
+    height: 150px;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+h4{
+	font-size:21px;
+	font-size: 21px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.blurb p{
+	font-size: 18px;
+    margin-right: 38px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+#photos{
+	background-color: white;
+	height:677px;
+}
+#outro{
+	height:371px;
+    background-color: pink;
+    padding-top: 42px;
+}
+#outro p{
+	text-align:center;
+    margin: 174px;
+    font-size: 27px;
+    margin-top: 0px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}
+#footer{
+	margin-top: 0px;
+	height:71px;
+	background-color:#ffe6e6;
+	padding-top: 41px;
+}
+#footer h1{
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align: left;
+    margin-left: 139px;
+    font-size: 18px;
+}
+#footer p{
+	    margin-top: -27px;
+    margin-bottom: 0px;
+    text-align: right;
+    margin-right: 139px;
+    font-size: 30px;
+}
