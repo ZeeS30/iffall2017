@@ -1,0 +1,40 @@
+html{
+
+}
+#one{
+	float:right;
+}
+#two{
+}
+#bottomright{
+	position: relative;
+    bottom: -296px;
+    right: -633px;
+}
+#fixed{
+	position:fixed;
+	top:0;
+	right:0;
+	background-color:green;
+}
+#three{
+	background-color: green;
+}
+#four{
+	background-color: red;
+}
+#five{
+	background-color: black;
+}
+#top{
+	position:absolute;
+	right:478px;
+	z-index: 1;
+
+}
+#bottom{
+	position:absolute;
+	bottom:-1600px;
+	right:468px;
+
+}
