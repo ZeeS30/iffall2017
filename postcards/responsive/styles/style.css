@@ -1,0 +1,161 @@
+html{} 
+a{
+	display:block;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+body{
+	background-image:url("../images/flower-background.jpg");
+	padding:0;
+	margin:0;
+	font-family:"Rock Salt", cursive;
+	color: #ab125e;
+	font-size: 42px;
+
+}
+.image{
+	background-image:url("../images/princessbardi.jpg");
+	position:absolute;
+	top:20px;
+	right:20px;
+	left:20px;
+	bottom:20px;
+	background-size:contain;
+	background-position:center;
+}
+@media screen and (max-width: 1400px){
+	p{
+		margin-right:779px;
+		margin-left: 20px
+	}
+
+}
+@media screen and (max-width:1226px){
+	p {
+		margin-top: -7px;
+    margin-right: 660px;
+    margin-left: 20px;
+    text-shadow: 2px 2px grey;
+	}
+}
+@media screen and (max-width:1104px){
+	p {
+		margin-top: -7px;
+    margin-right: 598px;
+    margin-left: 20px;
+    text-shadow: 2px 2px grey;
+	}
+}
+@media screen and (max-width:1038){
+	p{
+		margin-top: -7px;
+    margin-right: 598px;
+    margin-left: 20px;
+    text-shadow: 2px 2px grey;
+    font-size:36px;
+	}
+}
+@media screen and (max-width:896px){
+	p{
+		margin-top: -7px;
+    margin-right: 542px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    font-size: 34px;
+	}
+}
+@media screen and (max-width:836px){
+	p{
+	margin-top: 6px;
+    margin-right: 537px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    color: #ffffff;
+    font-size: 34px;
+	}
+}
+@media screen and (max-width:814px){
+	.image{
+		background-size: cover;
+	}
+	p{
+		margin-top: 85px;
+    margin-right: 462px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    font-size:30px;
+	}
+}
+@media screen and (max-width:730px){
+	p{
+		    margin-top: -6px;
+    margin-right: 462px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+}
+	}
+@media screen and (max-width:686px){
+	p{
+margin-top: 30px;
+    margin-right: 287px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    font-size: 33px;
+	}
+	.image{
+		background-position: left;
+	}
+}
+@media screen and (max-width:558px){
+	p{
+		margin-top: 30px;
+    margin-right: 158px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    font-size: 25px;
+}
+	}
+@media screen and (max-width:557px){
+	p{
+		margin-top: 25px;
+    margin-right: 240px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    }
+    .image{
+    	background-position: 20%;
+    }
+}
+@media and (max-width:377px){
+	p{
+		margin-top: -7px;
+    margin-right: 159px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    font-size: 23px;
+	}
+	.image{
+		background-position: 30%;
+	}
+}
+@media and (max-width:309px){
+	p{
+		    margin-top: 180px;
+    margin-right: 94px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+    font-size:17px;
+}
+	}
+@media and (max-width:211px){
+	p{
+		    margin-top: 180px;
+    margin-right: 94px;
+    margin-left: 5px;
+    text-shadow: 2px 2px grey;
+}
+	}
+}

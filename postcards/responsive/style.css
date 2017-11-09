@@ -1,0 +1,136 @@
+html{
+
+} 
+a{
+	display:block;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+body{
+	background-image:url("images/paisley-bg.jpg");
+	padding:0;
+	margin:0;
+	font-family:"Rock Salt", cursive;
+	color:#FBF7A8;
+	font-size: 42px;
+
+}
+.image{
+	background-image:url("images/Cardi1.jpg");
+	position:absolute;
+	top:20px;
+	right:20px;
+	left:20px;
+	bottom:20px;
+	background-size:cover;
+	background-position:center;
+}
+@media screen and (max-width:1500px){
+	p{
+		margin-left:50rem;
+		margin-top:auto;
+	}
+}
+@media screen and (max-width:1198px){
+	p{
+		margin-left:42rem;
+		margin-top:auto;
+	}
+}
+}
+@media screen and (max-width:1068px){
+	p{
+		font-size:40px;
+		margin-left:38rem;
+
+	}
+}
+@media screen and (max-width:986px){
+	p{
+		font-size:28px;
+		margin-left:35rem;
+	}
+}
+@media screen and (max-width:836px){
+	p{
+		font-size:27px;
+		margin-left:30rem;
+	}
+@media screen and (max-width:720px){
+	p{
+		font-size:27px;
+		margin-left: 27rem;
+	}
+}
+@media screen and (max-width:667px){
+	p{
+		font-size: 22px;
+		margin-left:25rem;
+	}
+}
+@media screen and (max-width:599px){
+		p{
+			font-size:19px;
+			margin-left:22rem;
+	}
+}
+@media screen and (max-width:530px){
+	p{
+		font-size:19px;
+		margin-left:20rem;
+	}
+}
+@media screen and (max-width:498px){
+	p{
+		font-size:14px;
+		margin-left:18rem;
+	}
+}
+@media screen and (max-width:428px){
+	p{
+		font-size: 14px;
+    	margin-left: 16rem;
+    	margin-top: 5rem;
+	}
+}
+@media screen and (max-width:397px){
+	p{
+		font-size: 14px;
+    	margin-left: 14rem;
+    	margin-top: 1rem;
+	}
+}
+@media screen and (max-width:364px){
+	p{
+		font-size: 14px;
+    	margin-left: 11rem;
+    	padding-top: 16rem;
+}
+	}
+}
+@media screen and(max-width:314px){
+	p{
+		font-size: 14px;
+    	margin-left: 8rem;
+    	padding-top: 15rem;
+    	background-color: darkcyan;
+    	margin-top: 278px;
+    	margin-left: 4rem;
+    	padding-top: 0px;
+    	padding-left: 6px;
+}
+
+	}
+
+@media screen and (max-width:306px){
+	p{
+		background-color: darkcyan;
+    	margin-top: 278px;
+    	margin-left: 4rem;
+    	padding-top: 0px;
+    	padding-left: 6px;
+	}
+}
