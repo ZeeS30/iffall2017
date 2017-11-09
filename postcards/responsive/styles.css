@@ -7,6 +7,14 @@ body{
     color: rgb(9, 150, 208);
     font-size: 72px;
 }
+a{
+	display:block;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
 .image{
 	background-image:url("images/COLDCARDI.jpg");
 	position:absolute;
