@@ -1,8 +1,41 @@
 html,
 	header{ margin-bottom: 3rem; } 
-		p{line-height: 1.6}
+		p{line-height: 1.6;}
 			.see-all{ font-size: 0.8em;
 			text-transform: uppercase; }
-		 	.shows > li > h1 {font-size: 2.5rem;}
+			.shows > li > h1 {font-size: 2.5rem;}
 		 	section > h2 {font-size: 1rem;
 		 		text-transform:uppercase;}
+		 	.content h1,h2 {font-weight: lighter;}
+		 	.cast img{
+		 		width:100%;
+		 	}
+		 	.cast li{
+		 		width:25%;
+		 	}
+		 	ul li h1{
+		 		border-top:1px solid black;
+		 	}
+		 	.selected a{
+		 		font-weight:bold;
+		 		color:black;
+		 	}
+		 	li a div {
+		 		font-size:0.8rem;
+		 	}
+		 	a div{
+		 		font-weight: bold;
+		 	}
+		 	.cast ul li a div:last-child{
+		 		font-weight:normal;
+		 		font-style: italic;
+		 	}
+		 	ul::after{
+		 		content: "*"
+		 	}
+		 	#game-of-thrones .seasons::after {
+    			display: block;
+   				 content: "* In production";
+    			font-size: 0.7rem;
+    			color: #999;
+}
