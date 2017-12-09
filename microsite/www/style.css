@@ -1,6 +1,7 @@
 html{
-	background-image: url("images/Paul_Background-01.png");
-	background-size: cover;
+	background-image: url("images/Paul_Background-02.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 h1 {
 	font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -9,7 +10,8 @@ h1 {
 	font-variant: normal;
 	font-weight: 800;
 	float: right;
-    margin-top: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h2{
 	font-family: "Helvetica", Arial, sans-serif;
@@ -28,8 +30,11 @@ ul{
 	padding-left: 12px;
     padding-top: 250px;
 }
-li{
-	margin-bottom: 5px;
+.SideNav li{
+	height:30px;
+	/*
+	margin-bottom: 5px;*/
+	transition:all .5s;
 }
 .SideNav{
 	font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -54,14 +59,18 @@ li{
     margin-left: 100px;
     border: 1px solid #ccc;
     float: right;
-    width: 180px;
+    width: 918px;
 }
 
 .gallery hover{
 
     border: 1px solid #777;
 }
-
+.gallery a {
+	width: 180px;
+    display: inline-block;
+    position:relative;
+}
 .gallery img {
     width: 100%;
     height: 50%;
@@ -78,33 +87,55 @@ li{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #008CBA;
+	background-color: rgba(0, 140, 186,0.5);
+	text-align: center;
+
 }
-.container:hover.overlay{
+a:hover .overlay{
+opacity:1;
+}
+/*.container:hover.overlay{
 	opacity:1;
-}
+}*/
 .buttontxt{
 	color:white;
 	font-size:20px;
 	position:absolute;
 	top:50%;
-	left:50%;
-	transform:translate(50%,50%);
-	-ms-transform:translate(50%,-50%);
+	width:100%;
 }
-a:link{
+/* a:link{
 	color: white;
 	text-decoration:none;
+	transition:all 1s;
 }
 a:visited{
 	color:white;
 	text-decoration:none; 
-}
+}/*
 a:hover{
 	background-color:white;
 	color:black;
 	padding-right:600px;
 	padding-top:5px;
+}*/
+li a {
+	color:white;
+	float:left;
+	transition:all .5s;
+	text-decoration: none;
+}
+li:hover{
+	width:500px;
+	background-color:#fff;
+}
+li:hover a{
+	color:black;
+	float:right;
+	margin-top:4px;
+	width:100%;
+	display:inline-block;
+	text-align:right;
 }
 a:active{
 
