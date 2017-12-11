@@ -1,0 +1,53 @@
+html{
+	background-image: url("images/Cardi_B.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+/*--h1,h2, body{
+	text-align:right;
+}--*/
+h1{
+	    float: right;
+    /* padding-right: 135px; */
+    text-shadow: -4px -4px white;
+    font-size: 75px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 469.906px;
+    background: rgba(175, 122, 197,0.8);
+    margin-top:0;
+}
+h2{
+	margin-bottom: 0;
+    float: right;
+    text-align: center;
+    /* padding-top: 150px; */
+    margin-left: 900px;
+    /* padding-right: 176px; */
+    width: 469.906px;
+    background: rgba(175, 122, 197,0.8);
+    margin-top:0;
+}
+
+iframe{
+	position:fixed;
+	top:134px;
+	left:0;
+	background-color:black;
+}
+
+body{
+	text-align:right;
+}
+
+section {
+	float: right;
+    text-align: center;
+    width: 33%;
+    background: rgba(175, 122, 197,0.8);
+    /*--margin-top: 70px;--*/
+    margin-left: 700px;
+	padding-bottom:15px;
+	}
+
