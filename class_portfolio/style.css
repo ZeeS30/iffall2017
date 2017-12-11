@@ -1,0 +1,21 @@
+html{
+font-family: 'Lobster', cursive;
+text-align: center;
+color:black;
+	}
+	a:visited{
+		color:black;
+	}
+}
+h1{
+	font-size:45px;
+}
+.container div{
+	width:100%;
+}
+img{
+	width:50%;
+	height:50%;
+	border:1px solid black;
+	padding: 4px;
+}
